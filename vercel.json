@@ -2,12 +2,13 @@
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "api/router.py"
+      "dest": "api/main.py"
     }
   ],
   "functions": {
-    "api/router.py": {
+    "api/main.py": {
       "maxDuration": 60
     }
   }
 }
+
