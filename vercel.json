@@ -3,10 +3,6 @@
     {
       "src": "/(.*)",
       "dest": "api/router.py"
-    },
-    {
-      "src": "/login",
-      "dest": "api/login.py"
     }
   ],
   "functions": {
