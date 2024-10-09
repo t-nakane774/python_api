@@ -1,0 +1,17 @@
+{
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "api/router.py"
+    },
+    {
+      "src": "/login",
+      "dest": "api/login.py"
+    }
+  ],
+  "functions": {
+    "api/router.py": {
+      "maxDuration": 60
+    }
+  }
+}
